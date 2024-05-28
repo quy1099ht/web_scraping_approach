@@ -39,3 +39,19 @@ else:
 - It took me a while to get a bit familiar with BeautifulSoup but I was also a bit sad that I could not use it alone to get the job done.
 - Overral, The data set seem normal to me. Under the eyes of an engineer, I only see them as number and data that I can convert to csv. Nothing more nothing less.
 - I'm pretty bad with economic stuffs so when I looked at the data and such. I had no idea what is going on.
+
+## Installation
+### Instal libraries
+```sh
+pip install requests pandas csv openpyxl
+```
+
+### Run the files
+- Export CSV:
+```sh
+python .\scrape.py
+```
+- Export to Excels
+```sh
+python .\scrape_to_excels.py
+```
